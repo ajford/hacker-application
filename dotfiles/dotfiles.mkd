@@ -1,0 +1,14 @@
+Dotfiles
+========
+
+My dotfiles are based on [Zack Holman's dotfiles][holman_dotfiles], but uses a
+bash based unpacker. I chose bash purely as a challenge, since I wasn't very
+familiar with bash when I started.
+
+They are located on my github account
+[github.com/ajford/dotfiles][ajford_dotfiles].
+
+
+[holman_dotfiles](http://github.com/holman/dotfiles)
+[ajford_dotfiles](http://github.com/ajford/dotfiles)
+
