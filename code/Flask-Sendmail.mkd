@@ -1,0 +1,23 @@
+Flask-Sendmail
+--------------
+
+[Flask-Sendmail][] is a derivative of the [Flask-Mail][] extension. The
+Flask-Mail extension is an SMTP interface for Flask. Flask-Sendmail differs in
+that it leverages subproccess to send mail via the underlying system's Sendmail
+binary. 
+
+Its development arose while working on the CARA Tracker project, as the system
+on which the Tracker is run has the standard SMTP ports blocked by the
+University IT department. They have a 'black magic' config file for Sendmail
+that allows mail dispatched through Sendmail to work, but all other methods are
+closed down tight. Being familiar with Flask-Mail, I decided to make a drop-in
+alternative that complied with the Flask-Mail interface, but would leverage the
+system's Sendmail.
+
+It is hosted on [PyPI][Flask-Sendmail], and the developmental version is
+available on github [here][src].
+
+
+[Flask-Mail]: http://pypi.python.org/pypi/Flask-Mail
+[Flask-Sendmail]: http://pypi.python.org/pypi/Flask-Sendmail
+[src]: http://github.com/ajford/flask-sendmail

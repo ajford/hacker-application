@@ -1,0 +1,14 @@
+Flask-WTF
+---------
+
+[Flask-WTF][] is an extension for the [Flask][] web framework, originaly
+developed by Dan Jacob. It ties the WTForms project into the Flask framework to
+ease development.
+
+I am the current maintainer, taking over from Ron Duplain, the previous
+maintainer. The [source][flaskwtf_git] can be found on my github account
+Github.com/ajford.
+
+
+[Flask-WTF]: http://pypi.python.org/pypi/Flask-WTF
+[flaskwtf_git]: http://github.com/ajford/Flask-WTF

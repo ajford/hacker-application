@@ -1,0 +1,27 @@
+CARA Tracker
+------------
+
+The CARA Tracker, located [here][caratracker] (source [here][trackersrc]), is a
+custom request tracker created for the University of Texas at Brownsville's
+[Center for Advanced Radio Astronomy][CARA]. It is based off the many issue
+trackers and helpdesk systems that I've seen/used, with a few tweaks built in to
+cater to our uses. It was written after exploring some other helpdesk systems
+revealed that none of those tested would suit our usage scenario.
+
+The CARA Request Tracker is built on top of the [Flask][] web framework and
+various extensions, such as [Flask-WTF][], [Flask-OpenID][],
+[Flask-SQLAlchemy][], and [Flask-Sendmail][]. It uses a MySQL databse to store
+requests, OpenID for user authentication, and a sendmail interface for
+notification emails. 
+
+
+
+
+[caratracker]: http://arcc.phys.utb.edu/carart
+[trackersrc]: http://github.com/arcc/caratracker
+[CARA]: http://arcc.phys.utb.edu
+[Flask]: http://flask.pocoo.org/
+[Flask-WTF]: http://pypi.python.org/pypi/Flask-WTF
+[Flask-SQLAlchemy]: http://pypi.python.org/pypi/Flask-SQLAlchemy
+[Flask-OpenID]: http://pypi.python.org/pypi/Flask-OpenID
+[Flask-Sendmail]: http://pypi.python.org/pypi/Flask-Sendmail

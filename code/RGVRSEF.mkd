@@ -1,0 +1,24 @@
+RGVRSEF
+-------
+
+I have written the registration site for Rio Grande Regional Science and
+Engineering Fair for the last five years. The first 3 years it was written in
+PHP, though based of off PHP4 (the version installed on the hosting server at
+the time), and for the last two years it has been based on Python and the
+[Flask][] web framework. 
+
+The code is available [here][rgvrsef], and is not actively hosted outside of the
+~2 month open registration period. I am in the process of setting up a small
+server to run demo versions of my projects, and will update this document when
+it is available. 
+
+The RGVRSEF project leverages Flask and a few of its extensions, such as
+[Flask-WTF][] (a form generation package), [Flask-SQLAlchemy][] (a wonderfully
+useful ORM), and [Flask-Mail][] (an SMTP interface package).
+
+[rgvrsef]: http://github.com/ajford/RGVRSEF
+[Flask]: http://flask.pocoo.org/
+[Flask-WTF]: http://pypi.python.org/pypi/Flask-WTF
+[Flask-SQLAlchemy]: http://pypi.python.org/pypi/Flask-SQLAlchemy
+[Flask-Mail]: http://pypi.python.org/pypi/Flask-Mail
+
