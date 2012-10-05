@@ -9,6 +9,6 @@ They are located on my github account
 [github.com/ajford/dotfiles][ajford_dotfiles].
 
 
-[holman_dotfiles](http://github.com/holman/dotfiles)
-[ajford_dotfiles](http://github.com/ajford/dotfiles)
+[holman_dotfiles]: http://github.com/holman/dotfiles
+[ajford_dotfiles]: http://github.com/ajford/dotfiles
 
