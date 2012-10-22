@@ -1,0 +1,18 @@
+ARXControl
+==========
+
+The [ARXControl][] package leverages Python classes and pyserial to represent
+the [Low Frequency All Sky Monitor][LoFASM] [Analog Reciever][ARX] within
+Python-space. 
+
+Using new-style classes and Python property decorators, the ARXControl package
+presents an object that can be treated as any other Python-space object, and all
+interactions are then reflected in the real world. By leveraging the
+getter/setter capabilities in Python property decorators, setting an attribute
+on an instance of the ARX class results in a properly formatted command to be
+issued, over serial, to the ARX Control unit. 
+
+
+[ARXControl]: http://github.com/arcc/ARXControl/
+[ARX]: http://arcc.phys.utb.edu/cara/lofasm/arx.html
+[LoFASM]: http://arcc.phys.utb.edu/cara/lofasm/

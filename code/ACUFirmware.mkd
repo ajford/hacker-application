@@ -1,0 +1,16 @@
+ACUFirmware
+===========
+
+The [ARX Control Unit][ARX] is an Arduino based project for the 
+[Low Frequency All Sky Monitor][LoFASM] and uses Arduino compatible hardware to
+control the Analog RF chain. 
+
+The [ACUFirmware][] leverages the CMDMessenger Library to facilitate communicate
+between the controlling computer and the ACU. 
+
+
+
+
+[ARX]: http://arcc.phys.utb.edu/cara/lofasm/arx.html
+[LoFASM]: http://arcc.phys.utb.edu/cara/lofasm/
+[ACUFirmware]: http://github.com/arcc/ACUFirmware/
